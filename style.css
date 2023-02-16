@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400&family=MuseoModerno:ital,wght@0,100;0,200;0,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inknut Antiqua, serif;
+}
+
+body {
+  background-color: rgb(230, 229, 229);
+  color: aliceblue;
+  background-image: url('./images/harrypotter.jpg');
+}
+
+.trybewarts-header-logo {
+  height: 65px;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(50, 167, 145);
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.cabeçalho {
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+  width: 150px;
+  padding-left: 10px;
+}
+
+#button {
+  background-color: rgba(14, 13, 14, 50%);
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inputs-main {
+  width: 70%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+}
+
+.section-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.subject {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(21, 25, 24, 0.4);
+  border-radius: 10px;
+}
+
+.radio-input {
+  margin-left: 10px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-right: 100px;
+}
+
+#nomeCompleto {
+  display: flex;
+}
+
+#email-casa {
+  display: flex;
+}
+
+.hr {
+  margin: 20px;
+  border: 1px solid rgb(200, 195, 195);
+}
+
+.Pai-span {
+  position: relative;
+}
+
+#counter {
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-60%, -30%);
+}
+
+#textarea {
+  border-radius: 10px;
+}
+
+#submit-btn:disabled {
+  background-color: rgb(40, 42, 45);
+  color: white;
+  top: 580px;
+  left: 30px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(50, 167, 145, 15%);
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#form-data {
+  font-weight: 700;
+  text-align: left;
+  margin-left: 12%;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(21, 25, 24, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
